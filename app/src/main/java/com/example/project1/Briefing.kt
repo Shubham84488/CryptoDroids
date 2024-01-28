@@ -255,3 +255,15 @@ fun icons() {
     }
 }
 
+@Preview
+@Composable
+fun Apreview(){
+    Project1Theme {
+        Surface (
+            modifier = Modifier.fillMaxSize(),
+            color = MaterialTheme.colorScheme.background
+        ){
+            Briefing()
+        }
+    }
+}
