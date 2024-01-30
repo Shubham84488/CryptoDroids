@@ -53,15 +53,15 @@ fun Briefing(donated:Int =8890, raised: Int =83400, goal: Int= 100000){
                 .fillMaxWidth()
                 .fillMaxHeight(0.015f)
         )
-        Box(
-            modifier = Modifier
-                .background(
-                    Color(221, 214, 214, 255),
-                    shape = RoundedCornerShape(20.dp)
-                )
-                .fillMaxWidth()
-                .fillMaxHeight(0.3f)
-        ) {
+            Box(
+                modifier = Modifier
+                    .background(
+                        Color(221, 214, 214, 255),
+                        shape = RoundedCornerShape(20.dp)
+                    )
+                    .fillMaxWidth()
+                    .fillMaxHeight(0.3f)
+            ) {
 
         }
 
